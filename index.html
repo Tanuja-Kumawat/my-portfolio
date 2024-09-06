@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>TANUJA</span></a>
+        <nav class="navbar">
+            <a href="#resume" class="active">Resume</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <!-- <a href="#portfolio">Portfolio</a> -->
+        </nav>
+        <a href="#" class="contact">Contact Me</a>
+    </header>
+    
+    <section class="home">
+        <div class="home-content">
+            <h3>HI 👋</h3>
+            <h1>I'm <span>Tanuja Kumawat<br></span>A Frontend Developer</h1>
+            <div class="btn-box">
+                <!-- Add buttons if needed -->
+            </div>
+        </div>
+        <div class="ima-box">
+            <img height="500" width="500" src="WhatsApp Image 2024-09-05 at 7.23.24 AM.jpeg" alt="Tanuja Kumawat">
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="about-img">
+            <!-- Add an image if needed -->
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend <span>Developer</span></h3>
+            <p>
+                I'm Tanuja Kumawat from Ujjain.
+                Pursuing a web development course from NavGurukul Pune.
+
+                A Frontend Developer creates user interfaces for websites.
+                Their duties include coding, using content management tools, and liaising with Web Designers.
+            </p>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2 class="resume-heading">Resume</h2>
+        <div class="resume-content">
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <h4>NavGurukul, Pune</h4>
+                    <p>Web Development Course</p>
+                    <p>2023-2024</p>
+                </li>
+                <li>
+                    <h4>Vikram University</h4>
+                    <p>Masters of Commerce</p>
+                    <p>2024 - 2025 (present)</p>
+                </li>
+                <li>
+                    <h4>Vikram University</h4>
+                    <p>Bachelor of Commerce</p>
+                    <p>2021 - 2023</p>
+                </li>
+            </ul>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Basic Python</li>
+            </ul>
+
+            <a href="Tanuja-Kumawat-Resume.pdf" class="btn-1" download>Download Resume</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="skills-heading">Skills</h2>
+        <div class="skills-content">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript ES6</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2 class="education-heading">Education</h2>
+        <div class="education-content">
+            <h3>NavGurukul, Pune</h3>
+            <p>Web Development Course</p>
+            <p>2023 - 2024</p>
+
+            <h3>Vikram University</h3>
+            <p>Masters of Commerce</p>
+            <p>2023 - 2024 (present)</p>
+
+            <h3>Vikram University</h3>
+            <p>Bachelor of Commerce</p>
+            <p>2021 - 2023</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact <span>Me</span></h2>
+                <div class="info-details">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: <a href="mailto:your-email@example.com">kumawattanuja1@gmail.com</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>Phone: <a href="tel:+1234567890">930XXXXXXxxx</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Location: ujjain(M.P.)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form action="#">
+                    <div class="input-box">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone number">
+                        
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Your message" required></textarea>
+                    <input type="submit" value="Send Message" class="btn-1">
+                </form>
+            </div>
+        </div>
+        <div class="map">
+            <h3>Find Me Here</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.741790123459!2d-122.4064176846816!3d37.78529867975878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809fc3cbb631%3A0x5e9b8715d8d042c!2sYour%20City%2C%20Your%20Country!5e0!3m2!1sen!2sus!4v1631784287171!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section class="social-media">
+        <h2>Connect with Me</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="social-icon" aria-label="LinkedIn Profile">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/your-profile" target="_blank" class="social-icon" aria-label="GitHub Profile">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/your-profile" target="_blank" class="social-icon" aria-label="Twitter Profile">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/your-profile" target="_blank" class="social-icon" aria-label="Facebook Profile">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <div class="copyright">
+            <p>&copy; 2024 Tanuja Kumawat. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
